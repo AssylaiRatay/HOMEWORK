@@ -1,0 +1,2 @@
+Hello, this is demo1.txt!
+Testing buffer read in Java.

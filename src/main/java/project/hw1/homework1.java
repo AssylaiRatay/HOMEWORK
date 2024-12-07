@@ -1,10 +1,12 @@
-package project;
+package project.hw1;
 
 import java.util.Scanner;
 
 public class homework1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+
 
         // Запрос числа от 1 до 5 у пользователя
         System.out.println("Введите число от 1 до 5:");
@@ -52,7 +54,7 @@ public class homework1 {
         System.out.println("Значение data: " + data);
         if (data <= 10) {
             System.out.println("Красный");
-        } else if (data <= 20) {
+        } else if (data > 10 && data <= 20) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
